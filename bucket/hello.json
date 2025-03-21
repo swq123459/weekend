@@ -4,6 +4,6 @@
     "homepage": "https://example.com",
     "license": "MIT",
     "url": "https://github.com/swq123459/some-archive/releases/download/extension/xkxkx.tar.gz",
-    "hash": "1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+    "skiphash": true,
     "bin": "hello.exe"
 }
