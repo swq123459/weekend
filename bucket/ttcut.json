@@ -7,7 +7,6 @@
     "skiphash": true,
     "bin": "ttcut/auto_clip.exe",
     "autoupdate": {
-        "version": "releases/latest",
         "url": "https://github.com/swq123459/EggPainTT_autoclip/releases/download/{version}/ttcut.zip"
     }
 }
