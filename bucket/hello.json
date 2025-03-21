@@ -1,0 +1,9 @@
+{
+    "version": "1.0",
+    "description": "A simple example application",
+    "homepage": "https://example.com",
+    "license": "MIT",
+    "url": "https://github.com/swq123459/some-archive/releases/download/extension/xkxkx.tar.gz",
+    "hash": "1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+    "bin": "hello.exe"
+}
