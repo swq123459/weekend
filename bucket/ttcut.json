@@ -5,5 +5,12 @@
     "license": "MIT",
     "url": "https://github.com/swq123459/EggPainTT_autoclip/releases/download/1.0.0/ttcut.zip",
     "skiphash": true,
-    "bin": "ttcut/auto_clip.exe"
+    "bin": "ttcut/auto_clip.exe",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/swq123459/EggPainTT_autoclip/releases/download/$version/ttcut.zip"
+            }
+        }
+    }
 }
