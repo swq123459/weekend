@@ -8,5 +8,6 @@
     "bin": "ffplayex/ffplayex.exe",
     "autoupdate": {
         "url": "https://github.com/swq123459/ffplayex/releases/download/{version}/ffplayex.zip"
-    }
+    },
+    "depends": "ffmpeg"
 }
