@@ -1,9 +1,9 @@
 {
-    "version": "latest",
+    "version": "0.2",
     "description": "ffplay extension support",
     "homepage": "https://ffmpeg.org/",
     "license": "MIT",
-    "url": "https://github.com/swq123459/ffplayex/releases/latest/download/ffplayex.zip",
+    "url": "https://github.com/swq123459/ffplayex/releases/download/{version}/ffplayex.zip",
     "skiphash": true,
     "bin": "ffplayex/ffplayex.exe",
     "autoupdate": {
