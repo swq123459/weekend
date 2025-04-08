@@ -5,7 +5,7 @@
     "license": "MIT",
     "url": "https://github.com/swq123459/ffplayex/releases/latest/download/ffplayex.zip",
     "skiphash": true,
-    "bin": "ffplayex/ffplayex.exe",
+    "bin": "dist/ffplayex.exe",
     "autoupdate": {
         "url": "https://github.com/swq123459/ffplayex/releases/download/{version}/ffplayex.zip"
     },
