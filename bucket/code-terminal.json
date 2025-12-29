@@ -3,6 +3,7 @@
     "description": "A tool to open vscode with Terminal profile",
     "homepage": "https://github.com/swq123459/code-terminal.git",
     "license": "MIT",
+    "icon": "code-terminal.ico",
     "url": "https://github.com/swq123459/code-terminal/releases/latest/download/code-terminal.zip",
     "skiphash": true,
     "bin": "code-terminal/code-terminal.exe",
