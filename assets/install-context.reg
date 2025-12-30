@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Open in code-terminal]
+@="Open in code-terminal"
+"Icon"="$code,0"
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Open in code-terminal\command]
+@="$code \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Open in code-terminal]
+@="Open in code-terminal"
+"Icon"="$code,0"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Open in code-terminal\command]
+@="$code \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Open in code-terminal]
+@="Open in code-terminal"
+"Icon"="$code,0"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Open in code-terminal\command]
+@="$code \"%V\""
