@@ -11,8 +11,8 @@
         "64bit": {
             "url": [
                 "https://github.com/swq123459/code-terminal/releases/latest/download/code-terminal.zip",
-                "https://raw.githubusercontent.com/swq123459/weekend/main/bucket/install-context.reg",
-                "https://raw.githubusercontent.com/swq123459/weekend/main/bucket/uninstall-context.reg"
+                "https://raw.githubusercontent.com/swq123459/weekend/refs/heads/main/assets/install-context.reg",
+                "https://raw.githubusercontent.com/swq123459/weekend/refs/heads/main/assets/uninstall-context.reg"
             ]
         }
     },
@@ -51,8 +51,8 @@
             "64bit": {
                 "url": [
                     "https://github.com/swq123459/code-terminal/releases/download/$version/code-terminal.zip",
-                    "https://raw.githubusercontent.com/swq123459/weekend/main/bucket/install-context.reg",
-                    "https://raw.githubusercontent.com/swq123459/weekend/main/bucket/uninstall-context.reg"
+                    "https://raw.githubusercontent.com/swq123459/weekend/refs/heads/main/assets/install-context.reg",
+                    "https://raw.githubusercontent.com/swq123459/weekend/refs/heads/main/assets/uninstall-context.reg"
                 ]
             }
         }
