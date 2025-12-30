@@ -29,22 +29,22 @@
     ],
     "post_install": [
         "if (Test-Path \"$dir\\install-context.reg\") {",
-        "    Write-Host '正在自动添加 \"Open in code-terminal\" 到右键菜单（用户级）...' -ForegroundColor Green",
+        "    Write-Host 'Automatically adding \"Open in code-terminal\" to context menu (user level)...' -ForegroundColor Green",
         "    reg import \"$dir\\install-context.reg\" > $null",
         "}"
     ],
     "uninstaller": {
         "script": [
             "if ($cmd -eq 'uninstall' -and (Test-Path \"$dir\\uninstall-context.reg\")) {",
-            "    Write-Host '正在移除 \"Open in code-terminal\" 右键菜单...' -ForegroundColor Yellow",
+            "    Write-Host 'Removing \"Open in code-terminal\" context menu...' -ForegroundColor Yellow",
             "    reg import \"$dir\\uninstall-context.reg\" > $null",
             "}"
         ]
     },
     "notes": [
-        "右键菜单已自动注册（如需手动，可运行：)",
+        "Context menu has been automatically registered. If manual registration is needed, run:",
         "reg import \"$dir\\install-context.reg\"",
-        "卸载时会自动移除菜单。"
+        "The menu will be automatically removed during uninstallation."
     ],
     "autoupdate": {
         "architecture": {
